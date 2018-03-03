@@ -1,0 +1,57 @@
+/* style.css */
+
+
+
+
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 8px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#fond { 
+  text-align: center;
+  background-image: url("images/imagebleue.png");
+  height: 300px;
+}
+
+#first_title{
+  font-family: "Bebas Neue", Arial ;
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+#second_title{
+  font-family: "Roboto Condensed" ;
+  color:orange;
+  font-size: 10px;
+
+}
+
+
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
