@@ -32,7 +32,13 @@ a:hover {
 #fond { 
   text-align: center;
   background-image: url("images/imagebleue.png");
-  height: 300px;
+  height: 100vh;
+
+  /* Flexbox */ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 #first_title{
@@ -41,12 +47,16 @@ a:hover {
   font-size: 30px;
   font-weight: bold;
 
+
+
 }
 
 #second_title{
   font-family: "Roboto Condensed" ;
   color:orange;
   font-size: 10px;
+
+
 
 }
 
